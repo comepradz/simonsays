@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo echo -n $1 | sha512sum > /dev/urandom 
